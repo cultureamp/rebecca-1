@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "testyMcTestFace"
+  description: "blah"
+  annotations:
+    github.com/project-slug: cultureamp/rebecca-1
+    backstage.io/techdocs-ref: url:https://github.com/cultureamp/rebecca-1
+spec:
+  type: service
+  lifecycle: experimental
+  owner: matthewtapper

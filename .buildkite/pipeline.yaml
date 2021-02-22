@@ -1,0 +1,7 @@
+steps:
+
+  - label: "" # My funky new pipeline"
+    command: "" # e.g. bin/ci_deploy
+    branches: "" # e.g. master | !master
+    agents:
+      queue: "" # e.g. build-unrestricted | deploy-staging | deplpy-production
